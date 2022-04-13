@@ -6,6 +6,7 @@ public class Find_count_of_capital_and_small_charactor_in_string {
 
 
         String str= "DigvijayTikka";
+        System.out.println("String Is \t" +str);
 
         String upper_char="";
         String lower_char="";
