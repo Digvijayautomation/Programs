@@ -2,7 +2,7 @@ package Programs;
 
 public class Fibonacci_series {
 
-    //Fibonacci Series- 0,1,1,2,3,5,8,13.....
+    //Fibonacci Series- 0,1,1,2,3,5,8,13,21
 
     static  int fib(int n)
     {
