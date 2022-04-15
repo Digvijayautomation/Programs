@@ -29,7 +29,7 @@ public class to_check_gievn_number_is_in_array {
         }
         if(IsInArray)
         {
-            System.out.println(+num_to_search+" \tIs On The Array List");
+            System.out.println(+num_to_search+" \t Is On The Array List");
         }
         else
         {
