@@ -10,7 +10,7 @@ public class Interview_Extract_Number_Add_Them {
 
         String str = "abc22def42ghi123";
 
-       int sum = 0;
+        int sum = 0;
         int i =0;
 
         Pattern p = Pattern.compile("\\d+"); // Finding the numbers in given string
@@ -19,7 +19,7 @@ public class Interview_Extract_Number_Add_Them {
         int [] numbers = new int[str.length()];  //Initialized array to store numbers
         while(((Matcher) m).find())
         {
-            numbers[i]= Integer.parseInt(m.group()); //
+            numbers[i]= Integer.parseInt(m.group());
             i++;
 
         }
@@ -29,6 +29,6 @@ public class Interview_Extract_Number_Add_Them {
             System.out.println(number);
         }
 
-        System.out.println("Sum -======" + sum);
+        System.out.println("Sum Is- " + sum);
     }
 }
