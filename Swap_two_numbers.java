@@ -34,8 +34,6 @@ public class Swap_two_numbers {
          b2=a1+b2; //here b2 become  -30-80=50
          a1=b2-a1;  //here a1 Become 50+-30=80
 
-
-
         System.out.println("After Swapping");
         System.out.println("a1 is "+a1);
         System.out.println("b2 is "+b2);

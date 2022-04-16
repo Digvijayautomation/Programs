@@ -2,11 +2,10 @@ package Programs;
 
 import java.util.Scanner;
 
-public class to_check_gievn_number_is_in_array {
-
-    public static void main(String[] args) {
-
-
+public class to_check_gievn_number_is_in_array
+{
+    public static void main(String[] args)
+    {
         // Practice program 2
         System.out.println(" Find the Given Value of Day is present in array or not ");
 
@@ -16,12 +15,12 @@ public class to_check_gievn_number_is_in_array {
 
         int [] day={1,4,5,7,2};
 
-
         boolean IsInArray=false;
 
-
-        for(float element:day) {
-            if (num_to_search == element) {
+        for(float element:day)
+        {
+            if (num_to_search == element)
+            {
                 IsInArray = true;
                 break;
 

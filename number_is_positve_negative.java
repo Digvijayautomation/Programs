@@ -2,9 +2,11 @@ package Programs;
 
 import java.util.Scanner;
 
-public class number_is_positve_negative {
+public class number_is_positve_negative
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         Scanner sc= new Scanner(System.in);
 

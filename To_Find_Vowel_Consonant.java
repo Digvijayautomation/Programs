@@ -11,8 +11,6 @@ public class To_Find_Vowel_Consonant {
         System.out.println("Enter character to check whether it is Vowel or Consonant ");
          char ch=sc.next().charAt(0);
 
-
-
        if (ch == 'a' || ch == 'e' ||ch == 'i' ||ch == 'o' ||ch == 'u')
        {
            System.out.println("Entered Character Is Vowel");
