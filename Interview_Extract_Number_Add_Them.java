@@ -1,5 +1,6 @@
 package Programs;
 
+import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,16 +18,16 @@ public class Interview_Extract_Number_Add_Them {
         Matcher m = p.matcher(str);
 
         int [] numbers = new int[str.length()];  //Initialized array to store numbers
+
         while(((Matcher) m).find())
         {
-            numbers[i]= Integer.parseInt(m.group());
+            numbers[i] = Integer.parseInt(m.group());
+
+            System.out.println(numbers[i]);
+            sum = sum + numbers[i];
             i++;
 
-        }
-        for (int number : numbers)
-        {
-            sum = sum + number;
-            System.out.println(number);
+
         }
 
         System.out.println("Sum Is- " + sum);
