@@ -6,7 +6,7 @@ public class largest_of_3_numbers {
     public static void main(String[] args) {
 
 
-        int a=90;
+        int a=10;
         int b=40;
         int c=70;
 

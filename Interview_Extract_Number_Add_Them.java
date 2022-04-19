@@ -24,6 +24,7 @@ public class Interview_Extract_Number_Add_Them {
             numbers[i] = Integer.parseInt(m.group());
 
             System.out.println(numbers[i]);
+
             sum = sum + numbers[i];
             i++;
 
