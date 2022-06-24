@@ -8,7 +8,7 @@ public class Interview_Extract_Number_Add_Them {
     // Extract Numbers From Given String And Add Them
     public static void main(String[] args) {
 
-        String str = "Samarth1 Pukale2 User3";
+        String str = "gdhdjss56hdhdj78hhd6hh";
 
         int sum = 0;
         int i =0;
