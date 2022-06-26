@@ -10,8 +10,8 @@ public class practice {
         Scanner sc=new Scanner(System.in);
         String str1= sc.next();
 
-        char t;
         String rev="";
+        char t;
 
         String temp="";
         for(int i=0;i<str1.length();i++)

@@ -14,7 +14,7 @@ public class Reverse_string {
 
         for(int i=0;i<str.length();i++)
         {
-            t = str.charAt(i); // 
+            t = str.charAt(i);
             rev =t +rev;
         }
         System.out.println("Reversers Of String Is\t"+rev);
