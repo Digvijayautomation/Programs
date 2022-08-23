@@ -24,7 +24,7 @@ public class Find_count_of_capital_and_small_charactor_in_string {
             }
             else
             {
-                lower_char=lower_char+ch;         // For Printing Upper Characters
+                lower_char=lower_char+ch;         // For Printing lower Characters
                 lower++;                           // For Print Count Off Upper Characters
             }
 

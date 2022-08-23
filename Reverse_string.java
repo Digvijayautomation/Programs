@@ -5,7 +5,7 @@ public class Reverse_string {
     public static void main(String[] args) {
 
 
-        String str="DigvijayTikka";
+        String str="Digvijay Tikka";
 
         System.out.println(str);
 
