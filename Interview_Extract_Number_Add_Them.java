@@ -10,22 +10,24 @@ public class Interview_Extract_Number_Add_Them {
 
         String str = "gdhdjss56hdhdj78hhd6hh";
 
-        int sum = 0;
-        int i =0;
 
-        Pattern p = Pattern.compile("\\d+"); // Finding the numbers in given string
-        Matcher m = p.matcher(str);
-
-        int [] numbers = new int[str.length()];  //Initialized array to store numbers
-
-        while(m.find())
+        for(int i=0;i<str.length();i++)
         {
-            numbers[i] = Integer.parseInt(m.group());
-            System.out.println(numbers[i]);
-            sum = sum + numbers[i];
-            i++;
+            char ch=str.charAt(i);
 
+           if(Character.isDigit(ch))
+            {
+                for (int j=i;j<str.length();j++)
+                {
+
+
+                }
+            }
         }
-        System.out.println("Sum Is- " + sum);
+
+
+
+
     }
+
 }
