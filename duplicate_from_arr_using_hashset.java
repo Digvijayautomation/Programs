@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class duplicate_from_arr_using_hashset {
     public static void main(String[] args) {
-        String names_arr[]={"Dig","Prat","Dig","Tikka","XYX"};
+        String names_arr[]={"Dig","Prat","Dig","Tikka","XYX","Prat"};
 
         HashSet<String> names1=new HashSet<String>();
 
@@ -15,6 +15,8 @@ public class duplicate_from_arr_using_hashset {
             {
                 System.out.println("Duplicate Value Is- "+n);
             }
+
+
         }
     }
 }
