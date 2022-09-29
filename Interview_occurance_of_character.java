@@ -16,7 +16,6 @@ public class Interview_occurance_of_character {
                       {
                         int count = hMap.get(str.charAt(i));  // if the character already present then get the count
                         hMap.put(str.charAt(i), ++count);     // and increase the count by 1
-
                     }
                     else {
 
