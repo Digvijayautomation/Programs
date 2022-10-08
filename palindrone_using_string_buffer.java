@@ -18,11 +18,11 @@ public class palindrone_using_string_buffer {
 
             if(str.equals(buffer1))
             {
-                System.out.println("Given String Is Palindrone");
+                System.out.println("Given String Is Palindrome");
             }
             else
             {
-                System.out.println("Given String Is Not Palindrone");
+                System.out.println("Given String Is Not Palindrome");
             }
         }
     }
