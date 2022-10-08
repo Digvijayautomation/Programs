@@ -1,28 +1,23 @@
 package Programs;
 
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class Interview_occurance_of_character {
 
     public static void main(String[] args) {
 
                 String str = "peterpatter";
-
-                HashMap<Character, Integer> hMap = new HashMap<>();
+             HashSet set=new HashSet();
 
                 for (int i =0; i< str.length(); i++)
                 {
-                    if (hMap.containsKey(str.charAt(i))) // to check the character already present in hashmap
-                      {
-                        int count = hMap.get(str.charAt(i));  // if the character already present then get the count
-                        hMap.put(str.charAt(i), ++count);     // and increase the count by 1
-                    }
-                    else {
+                    String temp="";
+                    temp+=str.charAt(i);
+                    set.add(temp);
 
-                        hMap.put(str.charAt(i),1); // if the character is not already present in the hashmap add it with count 1
-                    }
                 }
-                System.out.println(hMap);
+                System.out.println(set);
             }
         }
 
