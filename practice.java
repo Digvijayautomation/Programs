@@ -1,36 +1,34 @@
 package Programs;
 
+
+import javax.security.auth.callback.CallbackHandler;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class practice {
     public static void main(String[] args) {
 
+        String str = "SSDRRRTTYYTYTR";
 
-        String str="Digvijaytikka";
+        HashMap <Character, Integer> hMap = new HashMap<>();
 
-        HashMap<Character,Integer> map=new HashMap<>();
-
-        for(int i=0;i<str.length();i++)
-        {
-
-            if(map.containsKey(str.charAt(i)))
+      for(int i=0;i<str.length();i++)
+      {
+            if (hMap.containsKey(str.charAt(i)))
             {
-                int count=map.get(str.charAt(i));
-                map.put(str.charAt(i),++count);
+                int count = hMap.get(str.charAt(i));
+                hMap.put(str.charAt(i), ++count);
             }
             else
             {
-                map.put(str.charAt(i),1);
+                hMap.put(str.charAt(i),1);
             }
-
-
-
         }
-        System.out.println(map);
+        System.out.println(hMap);
+
+
 
     }
-
-
     }
 
 
