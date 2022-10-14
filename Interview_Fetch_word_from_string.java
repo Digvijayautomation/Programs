@@ -6,9 +6,13 @@ public class Interview_Fetch_word_from_string {
 
 
         String str = "Selenium Test Automation";
+        String find_string="Test";
 
-        System.out.println(str.indexOf("Test"));
-        String str1 = str.substring(9,13);
+        int length_of_find_string=find_string.length();
+
+       int index_test=str.indexOf(find_string);
+
+        String str1 = str.substring(index_test,13);
 
         System.out.println(str1);
 
