@@ -1,4 +1,3 @@
-package Programs;
 
 import java.util.Scanner;
 
@@ -12,12 +11,12 @@ public class Alphabet_Check {
 
         if((ch>='a' && ch <='z') || (ch>='A' && ch <='Z') )
         {
-            System.out.println("Enter Character is Alphabet");
+            System.out.println("Entered Character is Alphabet");
 
         }
         else
         {
-            System.out.println("Enter Character is NOT Alphabet");
+            System.out.println("Entered Character is NOT Alphabet");
         }
 
 
