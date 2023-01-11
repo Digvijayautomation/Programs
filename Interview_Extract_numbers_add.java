@@ -1,4 +1,4 @@
-package Programs;
+
 
 public class Interview_Extract_numbers_add
 {
@@ -8,7 +8,7 @@ public class Interview_Extract_numbers_add
 
             int n= Integer.parseInt(str.replaceAll("[a-z]",""));
 
-            System.out.println(n);
+            System.out.println("Number is"+n);
 
         int sum=0;
 
@@ -17,7 +17,7 @@ public class Interview_Extract_numbers_add
                 sum = sum + n % 10;
                 n = n/10;
             }
-            System.out.println(sum);
+            System.out.println("Sum Is"+sum);
         }
 
     }
