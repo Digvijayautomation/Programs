@@ -1,4 +1,3 @@
-package Programs;
 
 public class duplicate_from_arr {
     public static void main(String[] args) {

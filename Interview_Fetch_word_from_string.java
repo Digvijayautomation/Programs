@@ -1,4 +1,3 @@
-package Programs;
 
 public class Interview_Fetch_word_from_string {
 

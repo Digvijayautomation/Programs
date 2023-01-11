@@ -1,4 +1,4 @@
-package Programs;
+
 
 public class Find_count_of_capital_and_small_charactor_in_string {
 
