@@ -26,6 +26,6 @@ public class Interview_Multiplication_Int_with_String_Wipro {
         System.out.println(b);
 
         int multiplication_a_b = a * b;
-        System.out.println("Multiplication of int 4 and String two is " +multiplication_a_b);
+        System.out.println("Multi of int 4 and String two is " +multiplication_a_b);
     }
 }
