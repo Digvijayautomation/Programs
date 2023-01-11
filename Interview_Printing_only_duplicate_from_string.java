@@ -1,4 +1,4 @@
-package Programs;
+
 
 public class Interview_Printing_only_duplicate_from_string {
     public static void main(String[] args) {
